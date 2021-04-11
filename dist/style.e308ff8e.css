@@ -18,10 +18,11 @@
 }
 
 a {
+    color: inherit;
     text-decoration: none;
 }
 
-a:hover {
+li:hover {
     color: rgb(150, 150, 150);
 }
 
