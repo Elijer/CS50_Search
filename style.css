@@ -1,27 +1,39 @@
 * {
     font-family: 'Inconsolata', monospace;
+    background: rgb(38, 38, 38);
+    color: white;
 /*     background: black; */
 }
 
-body {
-
-}
-
-.nav {
-    padding-top: 20px;
-    margin-top: 20px;
+#nav {
+    margin-top: 30px;
 }
 
 .nav-item {
-    float: right;
+    padding: 20px 25px 20px 25px;
+    float: left;
     font-size: 25px;
-    padding-right: 30px;
     display: inline;
+    border-bottom: 5px solid rgb(33, 33, 33);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(150, 150, 150);
+}
+
+.nav-item:hover {
+/*     background: black; */
+    border-bottom: 5px solid orange;
+
 }
 
 #content {
     float: center;
-    padding-top: 25%;
+    padding-top: 20%;
     margin: auto;
     width: 50%;
 }
@@ -34,6 +46,13 @@ form {
 input {
     border: none;
     font-size: 25px;
-    border: 1px solid rgb(182, 182, 182);
+    padding: 18px;
+    border: 5px solid rgb(33, 33, 33);
     border-radius: 8px;
+}
+
+#google:hover {
+    color: orange;
+    background: rgb(38, 38, 38);
+
 }
