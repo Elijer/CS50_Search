@@ -1,0 +1,39 @@
+* {
+    font-family: 'Inconsolata', monospace;
+/*     background: black; */
+}
+
+body {
+
+}
+
+.nav {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.nav-item {
+    float: right;
+    font-size: 25px;
+    padding-right: 30px;
+    display: inline;
+}
+
+#content {
+    float: center;
+    padding-top: 25%;
+    margin: auto;
+    width: 50%;
+}
+
+form {
+    float: center;
+    text-align: center;
+}
+
+input {
+    border: none;
+    font-size: 25px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 8px;
+}
