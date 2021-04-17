@@ -22,3 +22,20 @@ https://www.google.com/search?q=moose
 */
 
 var imageSection = "&tbm=isch"
+
+/*
+https://www.google.com/search?as_q=all
+&as_epq=exact
+&as_oq=any
+&as_eq=none
+&as_nlo=
+&as_nhi=
+&lr=
+&cr=
+&as_qdr=all
+&as_sitesearch=
+&as_occt=any
+&safe=images
+&as_filetype=
+&tbs=
+*/
