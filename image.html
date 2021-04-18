@@ -1,46 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Turtle</title>
 
         <!-- CSS -->
         <link href = "style2/style.css" rel = "stylesheet" type = "text/css" />
         <link href = "style2/form.css" rel = "stylesheet" type = "text/css" />
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500&display=swap" rel="stylesheet">
-
     </head>
     <body>
 
-
+        </div id = "nav-container">
             <ul id = "nav">
+                <li class = "nav-item"><a href="advanced.html">Turtles</a></li>
+                <li class = "nav-item"><a href="advanced.html">Advanced</a></li>
+                <li class = "nav-item"><a href="image.html">Images</a></li>
                 <li class = "nav-item"><a href="index.html">Search</a></li>
-                <li class = "nav-item"><a href="image.html">Image</a></li>
-                <li class = "nav-item"><a href="advanced.html">Advanced Search</a></li>
-
             </ul>
+        </div>
+
 
         <div id="content">
+            <img id = "turtle" src = "Media/turtle4.png" alt = "an ocean turtle swimming in front of the word turtle" width = "430" height = "172" />
             <form action="https://google.com/search">
-                <input type="text" name="q">
+                <input id = "searchbar" type="text" name="q">
                 <input type="hidden" name="tbm" value="isch" />
                 <input id = "google" type="submit" value="Image Search">
             </form>
         </div>
+        
 
         <script src="index.js"></script>
     </body>
 </html>
-
-<!--
-
-Requirement
-3 pages
-    google search
-    image search
-    advanced search
-Link on the upper right to go back to google search
-
--->
