@@ -1,0 +1,41 @@
+#searchbar {
+    width: 84%;
+}
+
+#google, #lucky {
+    color: rgb(80, 80, 80);
+    font-size: 14px;
+    margin: 7px;
+    margin-top: 22px;
+    display: inline;
+    border: none;
+}
+
+#google:hover, #lucky:hover {
+    color: orange;
+    background: rgb(38, 38, 38);
+    border-radius: 15px;
+}
+
+form {
+    float: center;
+    text-align: center;
+}
+
+input {
+    margin:auto;
+    text-align: left;
+    border: none;
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+    padding: 14px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 50px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+input:hover {
+    border: 2px solid lightgrey;
+    border-top: none;
+}
