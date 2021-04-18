@@ -4,9 +4,12 @@
 
 #google, #lucky {
     color: rgb(80, 80, 80);
+    background: #f8f9fa;
+    border-radius: 3px;
     font-size: 14px;
-    margin: 7px;
-    margin-top: 22px;
+    margin: 3px;
+    padding: 10px 17.66px;
+    margin-top: 14px;
     display: inline;
     border: none;
 }
@@ -14,7 +17,6 @@
 #google:hover, #lucky:hover {
     color: orange;
     background: rgb(38, 38, 38);
-    border-radius: 15px;
 }
 
 form {

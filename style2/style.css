@@ -7,21 +7,30 @@
 }
 
 #nav {
-
+    display: block;
+    margin-right: 4px;
 }
 
 .nav-item {
-    padding: 20px 25px 20px 25px;
-    float: left;
-    font-size: 20px;
+    padding: 6px 4px 4px 4px;
+    margin: 0px 2px 0px 2px;
+    float: right;
+    font-size: 13px;
     display: inline;
-    border-bottom: 2px solid rgb(33, 33, 33);
 }
 
-#turtle {
+#content {
+    display: block;
+    float: center;
+    padding-top: 6%;
+    margin: auto;
+    width: 40%;
+}
+
+#turtle {       
     text-align: center;
     float: center;
-    padding: 0px 0px 30px 55px;
+    padding: 0px 0px 38px 80px;
 }
 
 input {
@@ -42,11 +51,4 @@ li:hover {
 /*     background: black; */
     border-bottom: 2px solid orange;
 
-}
-
-#content {
-    float: center;
-    padding-top: 20%;
-    margin: auto;
-    width: 40%;
 }
